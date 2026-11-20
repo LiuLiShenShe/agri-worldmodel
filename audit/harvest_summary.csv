@@ -1,0 +1,25 @@
+harvest_kind,compartment,target_date,n,mean_g_per_plant,sd_g_per_plant,source_sheet,source_rows,date_source
+common,3.01,2024-10-07,6,84.30333333333333,11.887054583313173,Destructive harvest 7-10-24,2;3;4;5;6;7,worksheet title: Destructive harvest 7-10-24
+common,3.01,2024-10-22,6,223.68333333333337,36.064256912719934,Destructive harvest 22-10-24,2;3;4;5;6;7,worksheet title: Destructive harvest 22-10-24
+common,3.01,2024-11-05,6,287.7416666666667,46.30596221510428,Destructive harvest 05-11-24,2;3;4;5;6;7,worksheet title: Destructive harvest 05-11-24
+common,3.02,2024-10-07,6,76.72,25.751111043991866,Destructive harvest 7-10-24,9;10;11;12;13;14,worksheet title: Destructive harvest 7-10-24
+common,3.02,2024-10-22,6,224.65,62.813273438024225,Destructive harvest 22-10-24,9;10;11;12;13;14,worksheet title: Destructive harvest 22-10-24
+common,3.02,2024-11-05,6,341.5916666666667,25.955763457595832,Destructive harvest 05-11-24,9;10;11;12;13;14,worksheet title: Destructive harvest 05-11-24
+common,3.03,2024-10-07,6,55.88166666666667,19.148097990836234,Destructive harvest 7-10-24,16;17;18;19;20;21,worksheet title: Destructive harvest 7-10-24
+common,3.03,2024-10-22,6,246.46333333333334,19.467677485171833,Destructive harvest 22-10-24,16;17;18;19;20;21,worksheet title: Destructive harvest 22-10-24
+common,3.03,2024-11-05,6,314.44666666666666,54.90842546155067,Destructive harvest 05-11-24,16;17;18;19;20;21,worksheet title: Destructive harvest 05-11-24
+common,3.06,2024-10-07,6,68.32333333333334,15.15572059212846,Destructive harvest 7-10-24,23;24;25;26;27;28,worksheet title: Destructive harvest 7-10-24
+common,3.06,2024-10-22,6,262.2033333333333,30.70292602776919,Destructive harvest 22-10-24,23;24;25;26;27;28,worksheet title: Destructive harvest 22-10-24
+common,3.06,2024-11-05,6,346.4566666666667,101.64433278184607,Destructive harvest 05-11-24,23;24;25;26;27;28,worksheet title: Destructive harvest 05-11-24
+common,3.07,2024-10-07,6,79.26666666666667,22.02760873691619,Destructive harvest 7-10-24,30;31;32;33;34;35,worksheet title: Destructive harvest 7-10-24
+common,3.07,2024-10-22,6,217.84333333333333,24.303716313902825,Destructive harvest 22-10-24,30;31;32;33;34;35,worksheet title: Destructive harvest 22-10-24
+common,3.07,2024-11-05,6,287.54333333333335,43.64048288764305,Destructive harvest 05-11-24,30;31;32;33;34;35,worksheet title: Destructive harvest 05-11-24
+common,3.08,2024-10-07,6,98.05833333333334,13.429766068947995,Destructive harvest 7-10-24,37;38;39;40;41;42,worksheet title: Destructive harvest 7-10-24
+common,3.08,2024-10-22,6,207.24333333333334,96.77732744122802,Destructive harvest 22-10-24,37;38;39;40;41;42,worksheet title: Destructive harvest 22-10-24
+common,3.08,2024-11-05,6,337.165,75.72609556817255,Destructive harvest 05-11-24,37;38;39;40;41;42,worksheet title: Destructive harvest 05-11-24
+final,3.01,2024-11-21,30,288.79699999999997,71.71743101491651,Final Harvest 3.01 ,2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,autonomous_greenhouse_challenge4_timeseries/timeseries/tomatonuts.csv:22910 [dwarf_tomato/harvest_date=326]
+final,3.02,2024-11-11,30,329.5756666666667,79.41996616344215,Final Harvest 3.02,2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,autonomous_greenhouse_challenge4_timeseries/timeseries/mugrow.csv:20030 [dwarf_tomato/harvest_date=316]
+final,3.03,2024-11-20,30,279.0973333333333,66.9264340813895,Final Harvest 3.03,2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,autonomous_greenhouse_challenge4_timeseries/timeseries/agrifusion.csv:22622 [dwarf_tomato/harvest_date=325]
+final,3.06,2024-11-15,21,339.0309523809524,109.46601339707051,Final Harvest  3.06,2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22,autonomous_greenhouse_challenge4_timeseries/timeseries/reference.csv:21182 [dwarf_tomato/harvest_date=320]
+final,3.07,2024-11-12,30,256.425,63.68908014181353,Final Harvest 3.07,2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,autonomous_greenhouse_challenge4_timeseries/timeseries/ideas.csv:20318 [dwarf_tomato/harvest_date=317]
+final,3.08,2024-11-21,30,263.83566666666667,103.356253357796,Final Harvest 3.08,2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31,autonomous_greenhouse_challenge4_timeseries/timeseries/trigger.csv:22910 [dwarf_tomato/harvest_date=326]

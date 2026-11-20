@@ -1,0 +1,19 @@
+compartment,team,log_timestamp_local,log_date_local,utc,plants_m2,csv_row,source,valid,actual_move_timestamp,actual_move_date_local,actual_move_source,actual_move_status
+3.01,tomatonuts,2024-09-03T00:00:00+02:00,2024-09-03,2024-09-02 22:00:00+00:00,56.0,2,autonomous_greenhouse_challenge4_timeseries/timeseries/tomatonuts.csv,True,,,,not_verified_no_physical_move_log
+3.01,tomatonuts,2024-09-19T00:00:00+02:00,2024-09-19,2024-09-18 22:00:00+00:00,20.0,4610,autonomous_greenhouse_challenge4_timeseries/timeseries/tomatonuts.csv,True,,,,not_verified_no_physical_move_log
+3.02,mugrow,2024-09-03T00:00:00+02:00,2024-09-03,2024-09-02 22:00:00+00:00,56.0,2,autonomous_greenhouse_challenge4_timeseries/timeseries/mugrow.csv,True,,,,not_verified_no_physical_move_log
+3.02,mugrow,2024-09-17T00:00:00+02:00,2024-09-17,2024-09-16 22:00:00+00:00,30.0,4034,autonomous_greenhouse_challenge4_timeseries/timeseries/mugrow.csv,True,,,,not_verified_no_physical_move_log
+3.03,agrifusion,2024-09-03T00:00:00+02:00,2024-09-03,2024-09-02 22:00:00+00:00,56.0,2,autonomous_greenhouse_challenge4_timeseries/timeseries/agrifusion.csv,True,,,,not_verified_no_physical_move_log
+3.03,agrifusion,2024-09-19T00:00:00+02:00,2024-09-19,2024-09-18 22:00:00+00:00,42.0,4610,autonomous_greenhouse_challenge4_timeseries/timeseries/agrifusion.csv,True,,,,not_verified_no_physical_move_log
+3.03,agrifusion,2024-09-25T00:00:00+02:00,2024-09-25,2024-09-24 22:00:00+00:00,30.0,6338,autonomous_greenhouse_challenge4_timeseries/timeseries/agrifusion.csv,True,,,,not_verified_no_physical_move_log
+3.03,agrifusion,2024-10-02T00:00:00+02:00,2024-10-02,2024-10-01 22:00:00+00:00,20.0,8354,autonomous_greenhouse_challenge4_timeseries/timeseries/agrifusion.csv,True,,,,not_verified_no_physical_move_log
+3.06,reference,2024-09-03T00:00:00+02:00,2024-09-03,2024-09-02 22:00:00+00:00,56.0,2,autonomous_greenhouse_challenge4_timeseries/timeseries/reference.csv,True,,,,not_verified_no_physical_move_log
+3.06,reference,2024-09-11T00:00:00+02:00,2024-09-11,2024-09-10 22:00:00+00:00,42.0,2306,autonomous_greenhouse_challenge4_timeseries/timeseries/reference.csv,True,,,,not_verified_no_physical_move_log
+3.06,reference,2024-09-19T00:00:00+02:00,2024-09-19,2024-09-18 22:00:00+00:00,30.0,4610,autonomous_greenhouse_challenge4_timeseries/timeseries/reference.csv,True,,,,not_verified_no_physical_move_log
+3.06,reference,2024-10-07T00:00:00+02:00,2024-10-07,2024-10-06 22:00:00+00:00,20.0,9794,autonomous_greenhouse_challenge4_timeseries/timeseries/reference.csv,True,,,,not_verified_no_physical_move_log
+3.07,ideas,2024-09-03T00:00:00+02:00,2024-09-03,2024-09-02 22:00:00+00:00,56.0,2,autonomous_greenhouse_challenge4_timeseries/timeseries/ideas.csv,True,,,,not_verified_no_physical_move_log
+3.07,ideas,2024-09-23T00:00:00+02:00,2024-09-23,2024-09-22 22:00:00+00:00,42.0,5762,autonomous_greenhouse_challenge4_timeseries/timeseries/ideas.csv,True,,,,not_verified_no_physical_move_log
+3.07,ideas,2024-10-21T00:00:00+02:00,2024-10-21,2024-10-20 22:00:00+00:00,30.0,13826,autonomous_greenhouse_challenge4_timeseries/timeseries/ideas.csv,True,,2024-10-20,doi:10.3390/s25144321 Section 3.3.2,date_only_reported_by_staff
+3.08,trigger,2024-09-03T00:00:00+02:00,2024-09-03,2024-09-02 22:00:00+00:00,56.0,2,autonomous_greenhouse_challenge4_timeseries/timeseries/trigger.csv,True,,,,not_verified_no_physical_move_log
+3.08,trigger,2024-09-16T00:00:00+02:00,2024-09-16,2024-09-15 22:00:00+00:00,42.0,3746,autonomous_greenhouse_challenge4_timeseries/timeseries/trigger.csv,True,,,,not_verified_no_physical_move_log
+3.08,trigger,2024-09-23T00:00:00+02:00,2024-09-23,2024-09-22 22:00:00+00:00,30.0,5762,autonomous_greenhouse_challenge4_timeseries/timeseries/trigger.csv,True,,,,not_verified_no_physical_move_log
