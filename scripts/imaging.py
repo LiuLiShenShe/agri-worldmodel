@@ -20,6 +20,12 @@ REF_CONFIG = 'dataset4tu/configs/cam_1.json'
 DEMO_COMMIT = '86c0b60cb55ca197b86c74394492c5b6612aff55'
 VARIETY = {'cherry': 'ch', 'heart': 'he', 'plum': 'pl', 'nc': 'nc'}
 TRAITS = ('height', 'leaf_area', 'fw_plant', 'number_of_red_fruits')
+MASK_VERSION = 'rgb_green_proxy_v1:G-R>=6;G-B>=-12;G>=25'
+
+
+def rgb_canopy_mask(rgb):
+    r, g, b = (rgb[:, :, i].astype(np.int16) for i in range(3))
+    return (g - r >= 6) & (g - b >= -12) & (g >= 25)
 
 
 def finite(x):
@@ -57,11 +63,10 @@ def decode(archive, rgb_name, depth_name, config, evidence, *, mask=False):
     selection = None
     if mask:
         # Fixed RGB-only screening proxy. No target, depth or held-out statistics fit this rule.
-        r,g,b = (rgb[:,:,i].astype(np.int16) for i in range(3))
-        selection = (g - r >= 6) & (g - b >= -12) & (g >= 25)
+        selection = rgb_canopy_mask(rgb)
         n = int(selection.sum())
         row.update(roi=f'0,0,{w},{h}', roi_convention='x0,y0,x1,y1_exclusive',
-                   mask_version='rgb_green_proxy_v1:G-R>=6;G-B>=-12;G>=25', canopy_pixel_n=n,
+                   mask_version=MASK_VERSION, canopy_pixel_n=n,
                    rgb_coverage_fraction=n/(w*h), mask_valid_depth_fraction=int((selection & valid).sum())/n if n else None)
     return row, rgb, selection, raw
 

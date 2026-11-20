@@ -136,7 +136,7 @@ class Archive:
     def __exit__(self, *_):
         self.close()
 
-    def read(self, name):
+    def read(self, name, *, cache_only=False):
         info = self.z.getinfo(name)
         safe_name = Path(name)
         if safe_name.is_absolute() or '..' in safe_name.parts:
@@ -145,6 +145,8 @@ class Archive:
         if path.is_file():
             data = path.read_bytes()
         else:
+            if cache_only:
+                raise FileNotFoundError(f'archive member not in local cache: {name}')
             # One bounded request for the local header and compressed payload avoids
             # repeated HTTP round-trips by ZipExtFile on a remote object.
             end = min(self.reader.source.size, info.header_offset + info.compress_size + 16384)

@@ -5,6 +5,8 @@
 阶段 0 交付在 [`audit/`](audit/)；先读 [数据审计及复跑说明](audit/data_audit.md)。
 `forecast_manifest.csv` 按隔间×共同采样日列出唯一目标，`harvest_gt.csv` 保留单株称重，`compartment_obs.parquet` 仅为 Reference 样表。此仓库不训练模型，也不把未标定的深度原值当作冠层高度。
 
+阶段 0.5 见 [RGB-D 测量验收报告](audit/depth_calibration_audit.md)。`frame_quality.parquet` 与 `forecast_coverage.csv` 分别记录逐帧检查结果和原有 18 个目标的截点前覆盖率，不修改阶段 0 称重或分折。
+
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt

@@ -1,0 +1,35 @@
+{
+  "coordinate_system": "1280x720 RGB inspection grid; multiply coordinates by 3 for native 3840x2160 pixels; rectangles have exclusive upper bounds",
+  "frames": {
+    "cam_1_2024_09_04_16_01_01": {
+      "status": "early_multiple_visible_rims_not_longitudinally_validated",
+      "pot_rim": [[922,94,932,96],[892,160,897,165],[917,181,928,184],[422,574,430,577],[380,606,383,617],[424,664,433,667],[766,576,776,579],[724,619,727,629],[771,667,780,671]],
+      "bench": [[250,22,279,43],[668,20,695,37],[991,18,1023,36],[147,688,179,704],[805,692,839,710],[1141,692,1180,705]],
+      "diameter_chords": [[[927,93],[930,185]], [[427,570],[427,668]], [[770,574],[773,672]]],
+      "outward_y_edges": [[427,668],[773,672]],
+      "note": "Three near-vertical outer rim chords read from RGB; occlusion by irrigation tubing and perspective introduce endpoint and centering uncertainty. Bench patches are separate objects."
+    },
+    "cam_1_2024_09_23_16_01_01": {
+      "status": "occluded_no_identifiable_pot_top",
+      "note": "No confidently identifiable rim or same bench patches through canopy."
+    },
+    "cam_1_2024_10_06_16_01_01": {
+      "status": "occluded_no_identifiable_pot_top",
+      "note": "Before the logged density change; canopy covers reference objects."
+    },
+    "cam_1_2024_10_07_16_01_01": {
+      "status": "localized_rim_and_bench_not_spatially_validated",
+      "pot_rim": [[722,142,728,145],[734,145,741,148],[744,143,749,146]],
+      "bench": [[785,146,796,151],[797,153,808,158],[789,158,799,163]],
+      "note": "After logged density change; only one short putative lip on the exposed pot. The bench patch is local, and neither persistent control points nor actual move time are documented."
+    },
+    "cam_1_2024_10_08_16_01_01": {
+      "status": "no_spatially_distributed_identifiable_rims",
+      "note": "No reliable multi-pot reference support; do not carry forward October 7 ROI or a September plane."
+    },
+    "cam_1_2024_10_22_16_01_01": {
+      "status": "occluded_no_identifiable_pot_top",
+      "note": "Late crop; visible fruit and foliage but no confidently identifiable distributed reference objects."
+    }
+  }
+}
